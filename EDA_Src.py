@@ -24,3 +24,5 @@ print(df.sample(10))
 print(df.dtypes)
 
 print(df.describe())
+
+print(df.isnull)
