@@ -49,6 +49,6 @@ specific date operations"""
 
 df["Ship Date"] = pd.to_datetime(df["Ship Date"])
 
-# select and check the type of ship date column
+# select and check the datatype of the column Ship_Date
 Ship_Date = df["Ship Date"]
 # print(Ship_Date)
